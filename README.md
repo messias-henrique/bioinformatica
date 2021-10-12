@@ -7,6 +7,6 @@
 
 |Atividade|Descrição|Valores iniciais|Entrada|Saída|
 |-----------|-----------|---------|---------|-------|
-|**Transcrição**|Cria uma fita de RNA mensageiro a partir de uma fita de DNA|Nenhum|Fita de RNA mensageiro. [String]|RNA mensageiro. [Arquivo de texto]|
-|**Tradução**|Traduz uma fita de RNA mensageiro em uma cadeia de aminoácidos|Nenhum|Fita de RNA mensageiro. [String]|Cadeia de aminoácidos [Arquivo de texto]|
-|**Algoritmo de Smith-Waterman para alinhamento global**|Alinha duas fitas de RNA mensageiros|Match = 3; Mismatch = -1; Gap = -2|Duas fitas de RNA mensageiros (vertical e horizontal). [String]|Alinhamento [Arquivo texto] e Matriz de scores [Arquivo .csv]|
+|**Transcrição**|Cria uma fita de RNA mensageiro a partir de uma fita de DNA|Nenhum|Fita de DNA [String]|RNA mensageiro [Arquivo de texto]|
+|**Tradução**|Traduz uma fita de RNA mensageiro em uma cadeia de aminoácidos|Nenhum|Fita de RNA mensageiro [String]|Cadeia de aminoácidos [Arquivo de texto]|
+|**Algoritmo de Smith-Waterman para alinhamento global**|Alinha duas fitas de RNA mensageiros|Match = 3; Mismatch = -1; Gap = -2;|Duas fitas de RNA mensageiros (vertical e horizontal) [String]|Alinhamento [Arquivo texto] e Matriz de scores [Arquivo .csv]|
