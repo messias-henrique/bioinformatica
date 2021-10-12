@@ -1,9 +1,9 @@
 # Bioinformatica
 
-Repositório criado com o intuito de armazenar os códigos feitos durante a disciplina de "Tópicos em Bioinformática 2021.1".
+## Repositório criado com o intuito de armazenar os códigos feitos durante a disciplina de "Tópicos em Bioinformática 2021.1".
 
 
-[Atividades]
+### [Atividades]
 
 01 - Transcrição.
 	- Entrada: fita de DNA. [String]
