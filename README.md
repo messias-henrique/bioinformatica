@@ -5,16 +5,8 @@
 
 ### [Atividades]
 
-01 - Transcrição.
-	- Entrada: fita de DNA. [String]
-	- Saída: RNA mensageiro. [Arquivo de texto]
-
-02 - Tradução.
-	- Entrada: fita de RNA mensageiro. [String]
-		   Código genético. [Dicionário]
-	- Saída: Cadeia de aminoácidos [Arquivo de texto]
-
-03 - Algoritmo de Smith-Waterman para alinhamento global.
-	- Valores: Match = 3 | Mismatch = -1 | Gap = -2
-	- Entrada: Duas fitas de RNA mensageiros (vertical e horizontal). [String]
-	- Saída: Alinhamento [Arquivo texto] e Matriz de scores [Arquivo .csv]
+|Atividade|Descrição|Valores iniciais|Entrada|Saída|
+|-----------|-----------|---------|---------|-------|
+|**Transcrição**|Cria uma fita de RNA mensageiro a partir de uma fita de DNA|Nenhum|Fita de RNA mensageiro. [String]|RNA mensageiro. [Arquivo de texto]|
+|**Tradução**|Traduz uma fita de RNA mensageiro em uma cadeia de aminoácidos|Nenhum|Fita de RNA mensageiro. [String]|Cadeia de aminoácidos [Arquivo de texto]|
+|**Algoritmo de Smith-Waterman para alinhamento global**|Alinha duas fitas de RNA mensageiros|Match = 3; Mismatch = -1; Gap = -2|Duas fitas de RNA mensageiros (vertical e horizontal). [String]|Alinhamento [Arquivo texto] e Matriz de scores [Arquivo .csv]|
